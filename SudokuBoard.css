@@ -1,0 +1,38 @@
+input {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+.board {
+    width: max-content;
+    border: 1px solid black;
+}
+
+.row-group {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.row input:nth-child(3) {
+    border-right: 1px solid black;
+}
+
+.row input:nth-child(4) {
+    border-left: 1px solid black;
+}
+
+.row input:nth-child(6) {
+    border-right: 1px solid black;
+}
+
+.row input:nth-child(7) {
+    border-left: 1px solid black;
+}
+
